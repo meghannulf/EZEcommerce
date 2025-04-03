@@ -1,0 +1,29 @@
+# Use Ubuntu as the base image
+FROM ubuntu:22.04
+
+# Set up non-root user
+ARG USERNAME=vscode
+ARG USER_UID=1000
+ARG USER_GID=$USER_UID
+
+# Install dependencies
+RUN apt-get update && apt-get install -y \
+    curl \
+    ca-certificates \
+    gnupg \
+    build-essential \
+    git \
+    sudo
+
+# Create user and set permissions
+RUN groupadd --gid $USER_GID $USERNAME && \
+    useradd -s /bin/bash --uid $USER_UID --gid $USER_GID -m $USERNAME && \
+    usermod -aG sudo $USERNAME && \
+    echo "$USERNAME ALL=(ALL) NOPASSWD:ALL" > /etc/sudoers.d/$USERNAME
+
+# Switch to non-root user
+USER $USERNAME
+WORKDIR /workspace
+
+# Expose necessary ports
+EXPOSE 3000 4000 27017

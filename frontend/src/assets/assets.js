@@ -1,59 +1,3 @@
-import p_img1 from "./p_img1.png";
-import p_img2_1 from "./p_img2_1.png";
-import p_img2_2 from "./p_img2_2.png";
-import p_img2_3 from "./p_img2_3.png";
-import p_img2_4 from "./p_img2_4.png";
-import p_img3 from "./p_img3.png";
-import p_img4 from "./p_img4.png";
-import p_img5 from "./p_img5.png";
-import p_img6 from "./p_img6.png";
-import p_img7 from "./p_img7.png";
-import p_img8 from "./p_img8.png";
-import p_img9 from "./p_img9.png";
-import p_img10 from "./p_img10.png";
-import p_img11 from "./p_img11.png";
-import p_img12 from "./p_img12.png";
-import p_img13 from "./p_img13.png";
-import p_img14 from "./p_img14.png";
-import p_img15 from "./p_img15.png";
-import p_img16 from "./p_img16.png";
-import p_img17 from "./p_img17.png";
-import p_img18 from "./p_img18.png";
-import p_img19 from "./p_img19.png";
-import p_img20 from "./p_img20.png";
-import p_img21 from "./p_img21.png";
-import p_img22 from "./p_img22.png";
-import p_img23 from "./p_img23.png";
-import p_img24 from "./p_img24.png";
-import p_img25 from "./p_img25.png";
-import p_img26 from "./p_img26.png";
-import p_img27 from "./p_img27.png";
-import p_img28 from "./p_img28.png";
-import p_img29 from "./p_img29.png";
-import p_img30 from "./p_img30.png";
-import p_img31 from "./p_img31.png";
-import p_img32 from "./p_img32.png";
-import p_img33 from "./p_img33.png";
-import p_img34 from "./p_img34.png";
-import p_img35 from "./p_img35.png";
-import p_img36 from "./p_img36.png";
-import p_img37 from "./p_img37.png";
-import p_img38 from "./p_img38.png";
-import p_img39 from "./p_img39.png";
-import p_img40 from "./p_img40.png";
-import p_img41 from "./p_img41.png";
-import p_img42 from "./p_img42.png";
-import p_img43 from "./p_img43.png";
-import p_img44 from "./p_img44.png";
-import p_img45 from "./p_img45.png";
-import p_img46 from "./p_img46.png";
-import p_img47 from "./p_img47.png";
-import p_img48 from "./p_img48.png";
-import p_img49 from "./p_img49.png";
-import p_img50 from "./p_img50.png";
-import p_img51 from "./p_img51.png";
-import p_img52 from "./p_img52.png";
-
 import logo from "./logo.png";
 import hero_img from "./hero_img.png";
 import cart_icon from "./cart_icon.png";
@@ -78,6 +22,43 @@ import pastel_setup from "./pastel_gaming.png";
 import cute_keyboard from "./cute_keyboard.png";
 import bright_gpu from "./sleek_gpu.png";
 import sleek_setup_about from "./sleek_setup.png";
+
+//Item photos
+import pc_build_img1 from "./pc_build_img1.png";
+import pc_build_img2 from "./pc_build_img2.png";
+import pc_build_img3 from "./pc_build_img3.png";
+import pc_build_img4 from "./pc_build_img4.png";
+import nvidia_card1 from "./nvidia_card1.png";
+import nvidia_card2 from "./nvidia_card2.png";
+import pc_case1 from "./pc_case1.png";
+import pc_case2 from "./pc_case2.png";
+import pc_case3 from "./pc_case3.png";
+import pc_case4 from "./pc_case4.png";
+import pc_case5 from "./pc_case5.png";
+import ram_1 from "./ram_1.png";
+import ram_2 from "./ram_2.png";
+import ram_3 from "./ram_3.png";
+import sam_ssd1 from "./sam_ssd1.png";
+import sam_ssd2 from "./sam_ssd2.png";
+import sam_ssd3 from "./sam_ssd3.png";
+import cooler_fan1 from "./cooler_fan1.png";
+import cooler_fan2 from "./cooler_fan2.png";
+import cooler_fan3 from "./cooler_fan3.png";
+import razer_black1 from "./razor_black1.png";
+import razer_black2 from "./razer_black2.png";
+import razer_black3 from "./razer_black3.png";
+import mouse_black1 from "./mouse_black1.png";
+import mouse_black2 from "./mouse_black2.png";
+import mouse_black3 from "./mouse_black3.png";
+import steel_headphones_black1 from "./steel_headphones_black1.png";
+import steel_series_black2 from "./steel_series_black2.png";
+import steel_series_headphone from "./steel_series_headphone.png";
+import steel_series_white1 from "./steel_series_white1.png";
+import odyssesy_1 from "./odyssesy_1.png";
+import odyssesy_2 from "./odyssesy_2.png";
+import odyssesy_3 from "./odyssesy_3.png";
+import odyssesy_4 from "./odyssesy_4.png";
+
 export const assets = {
   logo,
   pretty_rgb,
@@ -105,681 +86,220 @@ export const assets = {
   cross_icon,
 };
 
+// basic product schema
+// {
+//     "_id": "unique_product_id",
+//     "name": "Product Name",
+//     "description": "Detailed product description...",
+//     "price": 499.99,
+//     "image": ["image_url1", "image_url2"],
+//     "category": "PC Components",
+//     "subCategory": "Graphics Cards",
+//     "brand": "NVIDIA",
+//     "color": ["Black", "White", "RGB"],
+//     "stock": 25,
+//     "bestseller": false,
+//     "rating": 4.7,
+//     "reviews": 152,
+//     "dateAdded": 1716623423448,
+//     "specifications": {
+//       "key": "value"
+//     }
+//   }
+
 export const products = [
   {
-    _id: "aaaaa",
-    name: "Women Round Neck Cotton Top",
+    _id: "pc_001",
+    name: "Gaming Beast RTX 4090 Build",
     description:
-      "A lightweight, usually knitted, pullover shirt, close-fitting and with a round neckline and short sleeves, worn as an undershirt or outer garment.",
-    price: 100,
-    image: [p_img1],
-    category: "Women",
-    subCategory: "Topwear",
-    sizes: ["S", "M", "L"],
-    date: 1716634345448,
+      "A high-performance gaming PC with the latest RTX 4090 GPU with top of the line cooling, graphics, and wiring.",
+    price: 3499.99,
+    image: [pc_build_img1, pc_build_img2, pc_build_img3, pc_build_img4],
+    category: "PC Build",
+    subCategory: "Black",
+    brand: "Custom Build",
+    processor: "Intel Core i9-14900K",
+    gpu: "NVIDIA RTX 4090",
+    ram: "32GB DDR5",
+    storage: ["2TB NVMe SSD", "4TB HDD"],
+    psu: "1000W 80+ Gold",
+    cooling: "Liquid Cooling",
+    motherboard: "ASUS ROG Z790",
+    case: "Lian Li O11 Dynamic",
+    os: "Windows 11 Pro",
+    stock: 5,
     bestseller: true,
+    rating: 4.9,
+    reviews: 234,
   },
   {
-    _id: "aaaab",
-    name: "Men Round Neck Pure Cotton T-shirt",
-    description:
-      "A lightweight, usually knitted, pullover shirt, close-fitting and with a round neckline and short sleeves, worn as an undershirt or outer garment.",
-    price: 200,
-    image: [p_img2_1, p_img2_2, p_img2_3, p_img2_4],
-    category: "Men",
-    subCategory: "Topwear",
-    sizes: ["M", "L", "XL"],
-    date: 1716621345448,
-    bestseller: true,
+    _id: "gpu_001",
+    name: "NVIDIA RTX 4090",
+    image: [nvidia_card1, nvidia_card2],
+    category: "PC Component",
+    subCategory: "Black",
+    brand: "NVIDIA",
+    price: 1599.99,
+    stock: 10,
+    specifications: {
+      memory: "24GB GDDR6X",
+      coreClock: "2235 MHz",
+      boostClock: "2520 MHz",
+      powerDraw: "450W",
+    },
   },
   {
-    _id: "aaaac",
-    name: "Girls Round Neck Cotton Top",
-    description:
-      "A lightweight, usually knitted, pullover shirt, close-fitting and with a round neckline and short sleeves, worn as an undershirt or outer garment.",
-    price: 220,
-    image: [p_img3],
-    category: "Kids",
-    subCategory: "Topwear",
-    sizes: ["S", "L", "XL"],
-    date: 1716234545448,
-    bestseller: true,
+    _id: "case_001",
+    name: "Lian Li O11 Dynamic",
+    image: [pc_case1, pc_case2, pc_case3, pc_case4, pc_case5],
+    category: "PC Component",
+    subCategory: "White",
+    brand: "Lian Li",
+    price: 149.99,
+    color: ["White", "Black"],
+    stock: 15,
+    specifications: {
+      formFactor: "ATX",
+      dimensions: "446mm x 272mm x 445mm",
+      fanSupport: "3x 120mm Front, 3x 120mm Side, 3x 120mm Top",
+    },
   },
   {
-    _id: "aaaad",
-    name: "Men Round Neck Pure Cotton T-shirt",
+    _id: "ram_001",
+    name: "Corsair Vengeance LPX 32GB DDR4",
     description:
-      "A lightweight, usually knitted, pullover shirt, close-fitting and with a round neckline and short sleeves, worn as an undershirt or outer garment.",
-    price: 110,
-    image: [p_img4],
-    category: "Men",
-    subCategory: "Topwear",
-    sizes: ["S", "M", "XXL"],
-    date: 1716621345448,
-    bestseller: true,
+      "Vengeance LPX memory is designed for high-performance overclocking. The heatspreader is made of pure aluminum for faster heat dissipation, and the custom performance PCB helps manage heat and provides superior overclocking headroom. Each IC is individually screened for performance potential. The DDR4 form factor is optimized for the latest Intel DDR4 motherboards and offers higher frequencies, greater bandwidth, and lower power consumption than DDR3 modules. Vengeance LPX DDR4 modules are compatibility-tested across Intel DDR4 motherboards for reliably fast performance. ",
+    image: [ram_1, ram_2, ram_3],
+    category: "PC Component",
+    subCategory: "White",
+    brand: "Corsair",
+    price: 139.99,
+    stock: 45,
+    specifications: {
+      capacity: "32GB",
+      speed: "3200 MHz",
+      type: "DDR4",
+      latency: "16-18-18-36",
+      voltage: "1.35V",
+    },
   },
   {
-    _id: "aaaae",
-    name: "Women Round Neck Cotton Top",
+    _id: "ssd_001",
+    name: "Samsung 970 EVO Plus 1TB",
     description:
-      "A lightweight, usually knitted, pullover shirt, close-fitting and with a round neckline and short sleeves, worn as an undershirt or outer garment.",
-    price: 130,
-    image: [p_img5],
-    category: "Women",
-    subCategory: "Topwear",
-    sizes: ["M", "L", "XL"],
-    date: 1716622345448,
-    bestseller: true,
+      "The ultimate in speed and performance Speed up your computer with this Samsung 970 Evo Plus 1TB internal SSD. It maximizes the potential of NVMe bandwidth for unbeatable computing The M.2 interface is capable of delivering read speeds up to 3,500MB/sec. and write speeds up to 3,300MB/sec., so you can finish work faster. Samsung's innovative technology empowers you with the capacity to do more and accomplish more. The 970 EVO Plus provides exceptional endurance powered by the latest V-NAND technology and Samsung's reputation for quality. This Samsung 970 Evo Plus 1TB internal SSD has Dynamic Thermal Guard technology for protection against overheating.",
+    image: [sam_ssd1, sam_ssd2, sam_ssd3],
+    category: "PC Component",
+    subCategory: "Black",
+    brand: "Samsung",
+    price: 149.99,
+    stock: 60,
+    specifications: {
+      capacity: "1TB",
+      type: "NVMe M.2",
+      readSpeed: "3500 MB/s",
+      writeSpeed: "3300 MB/s",
+      formFactor: "M.2 2280",
+    },
   },
   {
-    _id: "aaaaf",
-    name: "Girls Round Neck Cotton Top",
-    description:
-      "A lightweight, usually knitted, pullover shirt, close-fitting and with a round neckline and short sleeves, worn as an undershirt or outer garment.",
-    price: 140,
-    image: [p_img6],
-    category: "Kids",
-    subCategory: "Topwear",
-    sizes: ["S", "L", "XL"],
-    date: 1716623423448,
-    bestseller: true,
+    _id: "cooling_fan_001",
+    name: "Cooler Master Hyper 212 RGB",
+    description: "A high-quality cooling fan.",
+    image: [cooler_fan1, cooler_fan2, cooler_fan3],
+    category: "PC Component",
+    subCategory: "Black",
+    brand: "Cooler Master",
+    price: 49.99,
+    stock: 40,
+    color: ["RGB"],
+    specifications: {
+      fanSize: "120mm",
+      fanSpeed: "2000 RPM",
+      noiseLevel: "26 dBA",
+      socketCompatibility: ["LGA 1200", "AM4", "LGA 1700"],
+    },
   },
   {
-    _id: "aaaag",
-    name: "Men Tapered Fit Flat-Front Trousers",
+    _id: "keyboard_001",
+    name: "Razer Huntsman Elite",
     description:
-      "A lightweight, usually knitted, pullover shirt, close-fitting and with a round neckline and short sleeves, worn as an undershirt or outer garment.",
-    price: 190,
-    image: [p_img7],
-    category: "Men",
-    subCategory: "Bottomwear",
-    sizes: ["S", "L", "XL"],
-    date: 1716621542448,
-    bestseller: false,
+      "If all-out advantage is more your speed, arm yourself with responsiveness that’s second to none. Meet the Razer Huntsman V2—an optical gaming keyboard with near-zero input latency and fully geared out with other high-end features to make it the complete package. ",
+    image: [razer_black1, razer_black2, razer_black3],
+    category: "PC Additions",
+    subCategory: "Black",
+    brand: "Razer",
+    price: 199.99,
+    color: ["RGB", "Quartz"], // Added "Quartz" as a color option
+    stock: 15,
+    specifications: {
+      switchType: "Opto-Mechanical",
+      keycaps: "PBT",
+      formFactor: "Full Size",
+      connectivity: "Wired",
+      dimensions: "447mm x 248mm x 41mm",
+    },
   },
   {
-    _id: "aaaah",
-    name: "Men Round Neck Pure Cotton T-shirt",
+    _id: "mouse_001",
+    name: "Logitech G Pro X Superlight",
     description:
-      "A lightweight, usually knitted, pullover shirt, close-fitting and with a round neckline and short sleeves, worn as an undershirt or outer garment.",
-    price: 140,
-    image: [p_img8],
-    category: "Men",
-    subCategory: "Topwear",
-    sizes: ["S", "M", "L", "XL"],
-    date: 1716622345448,
-    bestseller: false,
+      "Introducing PRO X SUPERLIGHT—one of our lightest, fastest PRO mouse ever. Powered by LIGHTSPEED, it’s here to help you remove all obstacles, so you can focus on nothing but winning. Get insanely precise, fast, and consistent control with HERO Sensor. Take first faster with zero-additive PTFE feet that deliver a dramatically smoother glide. Developed in collaboration with a large group of the world’s best esports pros, PRO X SUPERLIGHT features hyper-minimal design, but is packed with our latest technologies and advancements. PRO X SUPERLIGHT is available in black.",
+    image: [mouse_black2, mouse_black1, mouse_black3],
+    category: "PC Component",
+    subCategory: "Black",
+    brand: "Logitech",
+    price: 149.99,
+    color: ["Black"],
+    stock: 25,
+    specifications: {
+      sensor: "HERO Sensor",
+      dpi: "25,600",
+      buttons: 5,
+      weight: "63g",
+      connectivity: "Wireless",
+    },
   },
   {
-    _id: "aaaai",
-    name: "Girls Round Neck Cotton Top",
+    _id: "headset_001",
+    name: "SteelSeries Arctis Pro Wireless",
     description:
-      "A lightweight, usually knitted, pullover shirt, close-fitting and with a round neckline and short sleeves, worn as an undershirt or outer garment.",
-    price: 100,
-    image: [p_img9],
-    category: "Kids",
-    subCategory: "Topwear",
-    sizes: ["M", "L", "XL"],
-    date: 1716621235448,
-    bestseller: false,
+      "Arctis Pro Wireless features rock solid dual-wireless technology with 2.4G wireless lossless audio and Bluetooth mobile audio, combined with 40,000 Hz capable hi-res capable speaker drivers and a ClearCast mic making it the ultimate gaming audio system. Plus, Arctis Pro Wireless is designed with luxury materials like polished steel and aluminum alloy, and the exclusive Arctis ski goggle headband and AirWeave performance fabric ear cushions. ",
+    image: [
+      steel_headphones_black1,
+      steel_series_white1,
+      steel_series_black2,
+      steel_series_headphone,
+    ],
+    category: "PC Additions",
+    subCategory: "Black",
+    brand: "SteelSeries",
+    color: ["Black", "White"],
+    price: 329.99,
+    stock: 10,
+    specifications: {
+      audioDrivers: "40mm Neodymium",
+      microphone: "ClearCast Noise Cancelling",
+      batteryLife: "20 hours",
+      connectivity: "Wireless",
+    },
   },
   {
-    _id: "aaaaj",
-    name: "Men Tapered Fit Flat-Front Trousers",
+    _id: "monitor_001",
+    name: 'Samsung Odyssey G7 27"',
     description:
-      "A lightweight, usually knitted, pullover shirt, close-fitting and with a round neckline and short sleeves, worn as an undershirt or outer garment.",
-    price: 110,
-    image: [p_img10],
-    category: "Men",
-    subCategory: "Bottomwear",
-    sizes: ["S", "L", "XL"],
-    date: 1716622235448,
-    bestseller: false,
-  },
-  {
-    _id: "aaaak",
-    name: "Men Round Neck Pure Cotton T-shirt",
-    description:
-      "A lightweight, usually knitted, pullover shirt, close-fitting and with a round neckline and short sleeves, worn as an undershirt or outer garment.",
-    price: 120,
-    image: [p_img11],
-    category: "Men",
-    subCategory: "Topwear",
-    sizes: ["S", "M", "L"],
-    date: 1716623345448,
-    bestseller: false,
-  },
-  {
-    _id: "aaaal",
-    name: "Men Round Neck Pure Cotton T-shirt",
-    description:
-      "A lightweight, usually knitted, pullover shirt, close-fitting and with a round neckline and short sleeves, worn as an undershirt or outer garment.",
-    price: 150,
-    image: [p_img12],
-    category: "Men",
-    subCategory: "Topwear",
-    sizes: ["S", "M", "L", "XL"],
-    date: 1716624445448,
-    bestseller: false,
-  },
-  {
-    _id: "aaaam",
-    name: "Women Round Neck Cotton Top",
-    description:
-      "A lightweight, usually knitted, pullover shirt, close-fitting and with a round neckline and short sleeves, worn as an undershirt or outer garment.",
-    price: 130,
-    image: [p_img13],
-    category: "Women",
-    subCategory: "Topwear",
-    sizes: ["S", "M", "L", "XL"],
-    date: 1716625545448,
-    bestseller: false,
-  },
-  {
-    _id: "aaaan",
-    name: "Boy Round Neck Pure Cotton T-shirt",
-    description:
-      "A lightweight, usually knitted, pullover shirt, close-fitting and with a round neckline and short sleeves, worn as an undershirt or outer garment.",
-    price: 160,
-    image: [p_img14],
-    category: "Kids",
-    subCategory: "Topwear",
-    sizes: ["S", "M", "L", "XL"],
-    date: 1716626645448,
-    bestseller: false,
-  },
-  {
-    _id: "aaaao",
-    name: "Men Tapered Fit Flat-Front Trousers",
-    description:
-      "A lightweight, usually knitted, pullover shirt, close-fitting and with a round neckline and short sleeves, worn as an undershirt or outer garment.",
-    price: 140,
-    image: [p_img15],
-    category: "Men",
-    subCategory: "Bottomwear",
-    sizes: ["S", "M", "L", "XL"],
-    date: 1716627745448,
-    bestseller: false,
-  },
-  {
-    _id: "aaaap",
-    name: "Girls Round Neck Cotton Top",
-    description:
-      "A lightweight, usually knitted, pullover shirt, close-fitting and with a round neckline and short sleeves, worn as an undershirt or outer garment.",
-    price: 170,
-    image: [p_img16],
-    category: "Kids",
-    subCategory: "Topwear",
-    sizes: ["S", "M", "L", "XL"],
-    date: 1716628845448,
-    bestseller: false,
-  },
-  {
-    _id: "aaaaq",
-    name: "Men Tapered Fit Flat-Front Trousers",
-    description:
-      "A lightweight, usually knitted, pullover shirt, close-fitting and with a round neckline and short sleeves, worn as an undershirt or outer garment.",
-    price: 150,
-    image: [p_img17],
-    category: "Men",
-    subCategory: "Bottomwear",
-    sizes: ["S", "M", "L", "XL"],
-    date: 1716629945448,
-    bestseller: false,
-  },
-  {
-    _id: "aaaar",
-    name: "Boy Round Neck Pure Cotton T-shirt",
-    description:
-      "A lightweight, usually knitted, pullover shirt, close-fitting and with a round neckline and short sleeves, worn as an undershirt or outer garment.",
-    price: 180,
-    image: [p_img18],
-    category: "Kids",
-    subCategory: "Topwear",
-    sizes: ["S", "M", "L", "XL"],
-    date: 1716631045448,
-    bestseller: false,
-  },
-  {
-    _id: "aaaas",
-    name: "Boy Round Neck Pure Cotton T-shirt",
-    description:
-      "A lightweight, usually knitted, pullover shirt, close-fitting and with a round neckline and short sleeves, worn as an undershirt or outer garment.",
-    price: 160,
-    image: [p_img19],
-    category: "Kids",
-    subCategory: "Topwear",
-    sizes: ["S", "M", "L", "XL"],
-    date: 1716632145448,
-    bestseller: false,
-  },
-  {
-    _id: "aaaat",
-    name: "Women Palazzo Pants with Waist Belt",
-    description:
-      "A lightweight, usually knitted, pullover shirt, close-fitting and with a round neckline and short sleeves, worn as an undershirt or outer garment.",
-    price: 190,
-    image: [p_img20],
-    category: "Women",
-    subCategory: "Bottomwear",
-    sizes: ["S", "M", "L", "XL"],
-    date: 1716633245448,
-    bestseller: false,
-  },
-  {
-    _id: "aaaau",
-    name: "Women Zip-Front Relaxed Fit Jacket",
-    description:
-      "A lightweight, usually knitted, pullover shirt, close-fitting and with a round neckline and short sleeves, worn as an undershirt or outer garment.",
-    price: 170,
-    image: [p_img21],
-    category: "Women",
-    subCategory: "Winterwear",
-    sizes: ["S", "M", "L", "XL"],
-    date: 1716634345448,
-    bestseller: false,
-  },
-  {
-    _id: "aaaav",
-    name: "Women Palazzo Pants with Waist Belt",
-    description:
-      "A lightweight, usually knitted, pullover shirt, close-fitting and with a round neckline and short sleeves, worn as an undershirt or outer garment.",
-    price: 200,
-    image: [p_img22],
-    category: "Women",
-    subCategory: "Bottomwear",
-    sizes: ["S", "M", "L", "XL"],
-    date: 1716635445448,
-    bestseller: false,
-  },
-  {
-    _id: "aaaaw",
-    name: "Boy Round Neck Pure Cotton T-shirt",
-    description:
-      "A lightweight, usually knitted, pullover shirt, close-fitting and with a round neckline and short sleeves, worn as an undershirt or outer garment.",
-    price: 180,
-    image: [p_img23],
-    category: "Kids",
-    subCategory: "Topwear",
-    sizes: ["S", "M", "L", "XL"],
-    date: 1716636545448,
-    bestseller: false,
-  },
-  {
-    _id: "aaaax",
-    name: "Boy Round Neck Pure Cotton T-shirt",
-    description:
-      "A lightweight, usually knitted, pullover shirt, close-fitting and with a round neckline and short sleeves, worn as an undershirt or outer garment.",
-    price: 210,
-    image: [p_img24],
-    category: "Kids",
-    subCategory: "Topwear",
-    sizes: ["S", "M", "L", "XL"],
-    date: 1716637645448,
-    bestseller: false,
-  },
-  {
-    _id: "aaaay",
-    name: "Girls Round Neck Cotton Top",
-    description:
-      "A lightweight, usually knitted, pullover shirt, close-fitting and with a round neckline and short sleeves, worn as an undershirt or outer garment.",
-    price: 190,
-    image: [p_img25],
-    category: "Kids",
-    subCategory: "Topwear",
-    sizes: ["S", "M", "L", "XL"],
-    date: 1716638745448,
-    bestseller: false,
-  },
-  {
-    _id: "aaaaz",
-    name: "Women Zip-Front Relaxed Fit Jacket",
-    description:
-      "A lightweight, usually knitted, pullover shirt, close-fitting and with a round neckline and short sleeves, worn as an undershirt or outer garment.",
-    price: 220,
-    image: [p_img26],
-    category: "Women",
-    subCategory: "Winterwear",
-    sizes: ["S", "M", "L", "XL"],
-    date: 1716639845448,
-    bestseller: false,
-  },
-  {
-    _id: "aaaba",
-    name: "Girls Round Neck Cotton Top",
-    description:
-      "A lightweight, usually knitted, pullover shirt, close-fitting and with a round neckline and short sleeves, worn as an undershirt or outer garment.",
-    price: 200,
-    image: [p_img27],
-    category: "Kids",
-    subCategory: "Topwear",
-    sizes: ["S", "M", "L", "XL"],
-    date: 1716640945448,
-    bestseller: false,
-  },
-  {
-    _id: "aaabb",
-    name: "Men Slim Fit Relaxed Denim Jacket",
-    description:
-      "A lightweight, usually knitted, pullover shirt, close-fitting and with a round neckline and short sleeves, worn as an undershirt or outer garment.",
-    price: 230,
-    image: [p_img28],
-    category: "Men",
-    subCategory: "Winterwear",
-    sizes: ["S", "M", "L", "XL"],
-    date: 1716642045448,
-    bestseller: false,
-  },
-  {
-    _id: "aaabc",
-    name: "Women Round Neck Cotton Top",
-    description:
-      "A lightweight, usually knitted, pullover shirt, close-fitting and with a round neckline and short sleeves, worn as an undershirt or outer garment.",
-    price: 210,
-    image: [p_img29],
-    category: "Women",
-    subCategory: "Topwear",
-    sizes: ["S", "M", "L", "XL"],
-    date: 1716643145448,
-    bestseller: false,
-  },
-  {
-    _id: "aaabd",
-    name: "Girls Round Neck Cotton Top",
-    description:
-      "A lightweight, usually knitted, pullover shirt, close-fitting and with a round neckline and short sleeves, worn as an undershirt or outer garment.",
-    price: 240,
-    image: [p_img30],
-    category: "Kids",
-    subCategory: "Topwear",
-    sizes: ["S", "M", "L", "XL"],
-    date: 1716644245448,
-    bestseller: false,
-  },
-  {
-    _id: "aaabe",
-    name: "Men Round Neck Pure Cotton T-shirt",
-    description:
-      "A lightweight, usually knitted, pullover shirt, close-fitting and with a round neckline and short sleeves, worn as an undershirt or outer garment.",
-    price: 220,
-    image: [p_img31],
-    category: "Men",
-    subCategory: "Topwear",
-    sizes: ["S", "M", "L", "XL"],
-    date: 1716645345448,
-    bestseller: false,
-  },
-  {
-    _id: "aaabf",
-    name: "Men Round Neck Pure Cotton T-shirt",
-    description:
-      "A lightweight, usually knitted, pullover shirt, close-fitting and with a round neckline and short sleeves, worn as an undershirt or outer garment.",
-    price: 250,
-    image: [p_img32],
-    category: "Men",
-    subCategory: "Topwear",
-    sizes: ["S", "M", "L", "XL"],
-    date: 1716646445448,
-    bestseller: false,
-  },
-  {
-    _id: "aaabg",
-    name: "Girls Round Neck Cotton Top",
-    description:
-      "A lightweight, usually knitted, pullover shirt, close-fitting and with a round neckline and short sleeves, worn as an undershirt or outer garment.",
-    price: 230,
-    image: [p_img33],
-    category: "Kids",
-    subCategory: "Topwear",
-    sizes: ["S", "M", "L", "XL"],
-    date: 1716647545448,
-    bestseller: false,
-  },
-  {
-    _id: "aaabh",
-    name: "Women Round Neck Cotton Top",
-    description:
-      "A lightweight, usually knitted, pullover shirt, close-fitting and with a round neckline and short sleeves, worn as an undershirt or outer garment.",
-    price: 260,
-    image: [p_img34],
-    category: "Women",
-    subCategory: "Topwear",
-    sizes: ["S", "M", "L", "XL"],
-    date: 1716648645448,
-    bestseller: false,
-  },
-  {
-    _id: "aaabi",
-    name: "Women Zip-Front Relaxed Fit Jacket",
-    description:
-      "A lightweight, usually knitted, pullover shirt, close-fitting and with a round neckline and short sleeves, worn as an undershirt or outer garment.",
-    price: 240,
-    image: [p_img35],
-    category: "Women",
-    subCategory: "Winterwear",
-    sizes: ["S", "M", "L", "XL"],
-    date: 1716649745448,
-    bestseller: false,
-  },
-  {
-    _id: "aaabj",
-    name: "Women Zip-Front Relaxed Fit Jacket",
-    description:
-      "A lightweight, usually knitted, pullover shirt, close-fitting and with a round neckline and short sleeves, worn as an undershirt or outer garment.",
-    price: 270,
-    image: [p_img36],
-    category: "Women",
-    subCategory: "Winterwear",
-    sizes: ["S", "M", "L", "XL"],
-    date: 1716650845448,
-    bestseller: false,
-  },
-  {
-    _id: "aaabk",
-    name: "Women Round Neck Cotton Top",
-    description:
-      "A lightweight, usually knitted, pullover shirt, close-fitting and with a round neckline and short sleeves, worn as an undershirt or outer garment.",
-    price: 250,
-    image: [p_img37],
-    category: "Women",
-    subCategory: "Topwear",
-    sizes: ["S", "M", "L", "XL"],
-    date: 1716651945448,
-    bestseller: false,
-  },
-  {
-    _id: "aaabl",
-    name: "Men Round Neck Pure Cotton T-shirt",
-    description:
-      "A lightweight, usually knitted, pullover shirt, close-fitting and with a round neckline and short sleeves, worn as an undershirt or outer garment.",
-    price: 280,
-    image: [p_img38],
-    category: "Men",
-    subCategory: "Topwear",
-    sizes: ["S", "M", "L", "XL"],
-    date: 1716653045448,
-    bestseller: false,
-  },
-  {
-    _id: "aaabm",
-    name: "Men Printed Plain Cotton Shirt",
-    description:
-      "A lightweight, usually knitted, pullover shirt, close-fitting and with a round neckline and short sleeves, worn as an undershirt or outer garment.",
-    price: 260,
-    image: [p_img39],
-    category: "Men",
-    subCategory: "Topwear",
-    sizes: ["S", "M", "L", "XL"],
-    date: 1716654145448,
-    bestseller: false,
-  },
-  {
-    _id: "aaabn",
-    name: "Men Slim Fit Relaxed Denim Jacket",
-    description:
-      "A lightweight, usually knitted, pullover shirt, close-fitting and with a round neckline and short sleeves, worn as an undershirt or outer garment.",
-    price: 290,
-    image: [p_img40],
-    category: "Men",
-    subCategory: "Winterwear",
-    sizes: ["S", "M", "L", "XL"],
-    date: 1716655245448,
-    bestseller: false,
-  },
-  {
-    _id: "aaabo",
-    name: "Men Round Neck Pure Cotton T-shirt",
-    description:
-      "A lightweight, usually knitted, pullover shirt, close-fitting and with a round neckline and short sleeves, worn as an undershirt or outer garment.",
-    price: 270,
-    image: [p_img41],
-    category: "Men",
-    subCategory: "Topwear",
-    sizes: ["S", "M", "L", "XL"],
-    date: 1716656345448,
-    bestseller: false,
-  },
-  {
-    _id: "aaabp",
-    name: "Boy Round Neck Pure Cotton T-shirt",
-    description:
-      "A lightweight, usually knitted, pullover shirt, close-fitting and with a round neckline and short sleeves, worn as an undershirt or outer garment.",
-    price: 300,
-    image: [p_img42],
-    category: "Kids",
-    subCategory: "Topwear",
-    sizes: ["S", "M", "L", "XL"],
-    date: 1716657445448,
-    bestseller: false,
-  },
-  {
-    _id: "aaabq",
-    name: "Kid Tapered Slim Fit Trouser",
-    description:
-      "A lightweight, usually knitted, pullover shirt, close-fitting and with a round neckline and short sleeves, worn as an undershirt or outer garment.",
-    price: 280,
-    image: [p_img43],
-    category: "Kids",
-    subCategory: "Bottomwear",
-    sizes: ["S", "M", "L", "XL"],
-    date: 1716658545448,
-    bestseller: false,
-  },
-  {
-    _id: "aaabr",
-    name: "Women Zip-Front Relaxed Fit Jacket",
-    description:
-      "A lightweight, usually knitted, pullover shirt, close-fitting and with a round neckline and short sleeves, worn as an undershirt or outer garment.",
-    price: 310,
-    image: [p_img44],
-    category: "Women",
-    subCategory: "Winterwear",
-    sizes: ["S", "M", "L", "XL"],
-    date: 1716659645448,
-    bestseller: false,
-  },
-  {
-    _id: "aaabs",
-    name: "Men Slim Fit Relaxed Denim Jacket",
-    description:
-      "A lightweight, usually knitted, pullover shirt, close-fitting and with a round neckline and short sleeves, worn as an undershirt or outer garment.",
-    price: 290,
-    image: [p_img45],
-    category: "Men",
-    subCategory: "Winterwear",
-    sizes: ["S", "M", "L", "XL"],
-    date: 1716660745448,
-    bestseller: false,
-  },
-  {
-    _id: "aaabt",
-    name: "Men Slim Fit Relaxed Denim Jacket",
-    description:
-      "A lightweight, usually knitted, pullover shirt, close-fitting and with a round neckline and short sleeves, worn as an undershirt or outer garment.",
-    price: 320,
-    image: [p_img46],
-    category: "Men",
-    subCategory: "Winterwear",
-    sizes: ["S", "M", "L", "XL"],
-    date: 1716661845448,
-    bestseller: false,
-  },
-  {
-    _id: "aaabu",
-    name: "Kid Tapered Slim Fit Trouser",
-    description:
-      "A lightweight, usually knitted, pullover shirt, close-fitting and with a round neckline and short sleeves, worn as an undershirt or outer garment.",
-    price: 300,
-    image: [p_img47],
-    category: "Kids",
-    subCategory: "Bottomwear",
-    sizes: ["S", "M", "L", "XL"],
-    date: 1716662945448,
-    bestseller: false,
-  },
-  {
-    _id: "aaabv",
-    name: "Men Slim Fit Relaxed Denim Jacket",
-    description:
-      "A lightweight, usually knitted, pullover shirt, close-fitting and with a round neckline and short sleeves, worn as an undershirt or outer garment.",
-    price: 330,
-    image: [p_img48],
-    category: "Men",
-    subCategory: "Winterwear",
-    sizes: ["S", "M", "L", "XL"],
-    date: 1716664045448,
-    bestseller: false,
-  },
-  {
-    _id: "aaabw",
-    name: "Kid Tapered Slim Fit Trouser",
-    description:
-      "A lightweight, usually knitted, pullover shirt, close-fitting and with a round neckline and short sleeves, worn as an undershirt or outer garment.",
-    price: 310,
-    image: [p_img49],
-    category: "Kids",
-    subCategory: "Bottomwear",
-    sizes: ["S", "M", "L", "XL"],
-    date: 1716665145448,
-    bestseller: false,
-  },
-  {
-    _id: "aaabx",
-    name: "Kid Tapered Slim Fit Trouser",
-    description:
-      "A lightweight, usually knitted, pullover shirt, close-fitting and with a round neckline and short sleeves, worn as an undershirt or outer garment.",
-    price: 340,
-    image: [p_img50],
-    category: "Kids",
-    subCategory: "Bottomwear",
-    sizes: ["S", "M", "L", "XL"],
-    date: 1716666245448,
-    bestseller: false,
-  },
-  {
-    _id: "aaaby",
-    name: "Women Zip-Front Relaxed Fit Jacket",
-    description:
-      "A lightweight, usually knitted, pullover shirt, close-fitting and with a round neckline and short sleeves, worn as an undershirt or outer garment.",
-    price: 320,
-    image: [p_img51],
-    category: "Women",
-    subCategory: "Winterwear",
-    sizes: ["S", "M", "L", "XL"],
-    date: 1716667345448,
-    bestseller: false,
-  },
-  {
-    _id: "aaabz",
-    name: "Men Slim Fit Relaxed Denim Jacket",
-    description:
-      "A lightweight, usually knitted, pullover shirt, close-fitting and with a round neckline and short sleeves, worn as an undershirt or outer garment.",
-    price: 350,
-    image: [p_img52],
-    category: "Men",
-    subCategory: "Winterwear",
-    sizes: ["S", "M", "L", "XL"],
-    date: 1716668445448,
-    bestseller: false,
+      "Catch every detail as you play fast-paced games and watch movies on the 27! Samsung Odyssey G7 G70D 4K HDR 144 Hz Gaming Monitor. Featuring a versatile design, this 3840 x 2160 resolution UHD 4K display doubles as a standalone smart TV that allows you to stream videos and games without having to connect a computer or console system.",
+    image: [odyssesy_1, odyssesy_2, odyssesy_3, odyssesy_4],
+    category: "PC Additions",
+    brand: "Samsung",
+    price: 799.99,
+    stock: 12,
+    specifications: {
+      resolution: "2560x1440",
+      refreshRate: "240Hz",
+      responseTime: "1ms",
+      panelType: "QLED",
+      ports: ["DisplayPort 1.4", "HDMI 2.0"],
+    },
   },
 ];

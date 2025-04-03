@@ -1,14 +1,43 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Prata&display=swap');
-@import "tailwindcss";
 
-a.active hr{
-  display: block;
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  font-family: Outfit;
 }
+
 .prata-regular {
   font-family: "Prata", serif;
   font-weight: 400;
   font-style: normal;
 }
-*{
-  font-family: Outfit;
+
+a.active hr {
+  display: block;
+}
+
+::-webkit-scrollbar {
+  display: none;
+}
+
+@media (max-width:640px) {
+  a.active {
+    background-color: black;
+    color: white;
+  }
+}
+.square-image {
+  display: grid;
+  object-fit: fill;
+  width: 400px;
+  height: 400px;
+  place-items: center;
+} /* Important for positioning the image */ /* Ensures the image is centered if cropped */
+.thumbnail-image {
+  width: 100px;         
+  height: 100px;        
+  object-fit: contain;
 }

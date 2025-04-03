@@ -1,5 +1,6 @@
 import React from 'react';
 import { assets } from '../assets/assets';
+import { Link } from 'react-router-dom';
 
 const About = () => {
   return (
@@ -14,16 +15,18 @@ const About = () => {
 
           {/* Description */}
           <p className="mt-4 text-sm md:text-base leading-relaxed">
-            Welcome to our world! We’re committed to delivering quality, innovation, and timeless style.
-            Our journey is fueled by passion, and every product we create is a testament to our dedication.
+              Welcome to our world of custom builds! We specialize in providing unique and stylish components that help you create the perfect setup. Whether you're designing a workstation, gaming rig, or creative space, our products are carefully crafted to add beauty and functionality to your environment. Let us help you build something amazing!
           </p>
+
 
           {/* Explore More Button */}
           <div className="flex items-center justify-center sm:justify-start gap-3 mt-5 group cursor-pointer">
-            <p className="font-semibold text-sm md:text-base transition-colors group-hover:text-black">
-              EXPLORE MORE
-            </p>
-            <div className="w-10 md:w-12 h-[2px] bg-[#414141] transition-all group-hover:w-14"></div>
+            <Link to="/collection" className="flex items-center">
+              <p className="font-semibold text-sm md:text-base transition-colors group-hover:text-black">
+                EXPLORE MORE
+              </p>
+              <div className="w-10 md:w-12 h-[2px] bg-[#414141] transition-all group-hover:w-14"></div>
+            </Link>
           </div>
         </div>
       </div>
