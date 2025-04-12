@@ -1,0 +1,40 @@
+
+10-Apr-2025 20:40:21  error::apiFetch(): AggregateError
+
+10-Apr-2025 20:41:37  error::apiFetch(): AggregateError
+
+10-Apr-2025 20:41:38  error::apiFetch(): AggregateError
+
+10-Apr-2025 20:41:39  error::apiFetch(): AggregateError
+
+10-Apr-2025 20:41:39  error::apiFetch(): AggregateError
+
+10-Apr-2025 20:41:39  error::apiFetch(): AggregateError
+
+10-Apr-2025 20:41:40  error::apiFetch(): AggregateError
+
+10-Apr-2025 20:41:40  error::apiFetch(): AggregateError
+
+10-Apr-2025 20:41:45  error::apiFetch(): AggregateError
+
+10-Apr-2025 20:41:50  error::apiFetch(): AggregateError
+
+10-Apr-2025 20:41:53  error::apiFetch(): AggregateError
+
+10-Apr-2025 20:41:53  error::apiFetch(): AggregateError
+
+10-Apr-2025 20:41:58  error::apiFetch(): AggregateError
+
+10-Apr-2025 20:41:59  error::apiFetch(): AggregateError
+
+10-Apr-2025 20:41:59  error::apiFetch(): AggregateError
+
+10-Apr-2025 20:41:59  error::apiFetch(): AggregateError
+
+10-Apr-2025 20:41:59  error::apiFetch(): AggregateError
+
+10-Apr-2025 20:42:00  error::apiFetch(): AggregateError
+
+10-Apr-2025 20:42:00  error::apiFetch(): AggregateError
+
+10-Apr-2025 23:48:55  error::apiFetch(): Error: getaddrinfo ENOTFOUND http
