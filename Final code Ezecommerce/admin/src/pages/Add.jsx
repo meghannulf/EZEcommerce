@@ -61,7 +61,8 @@ const Add = ({token}) => {
    }
 
   return (
-    <form onSubmit={onSubmitHandler} className='flex flex-col w-full items-start gap-3'>
+    <div>
+      <form onSubmit={onSubmitHandler} className='flex flex-col w-full items-start gap-3'>
         <div>
           <p className='mb-2'>Upload Image</p>
 
@@ -120,8 +121,15 @@ const Add = ({token}) => {
                       <input onChange={(e) => setPrice(e.target.value)} value={price} className='w-full px-3 py-2 sm:w-[120px]' type="Number" placeholder='25' />
                     </div>
                 </div>
+              <div className='flex gap-2 mt-2'>
+                <input onChange={() => setBestseller(prev => !prev)} checked={bestseller} type="checkbox" id='bestseller' />
+                <label htmlFor="bestseller">Bestseller</label>
+              </div>
+
+              <button type="submit" className='w-28 py-3 mt-4 bg-black text-white'>ADD</button>
             </form>
-                        );
+        </div>
+    );
 }
 
 export default Add
